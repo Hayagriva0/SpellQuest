@@ -1,0 +1,53 @@
+{
+  "name": "SpellQuest – Master English Spelling & Typing",
+  "short_name": "SpellQuest",
+  "description": "Master English spelling and touch typing with gamified lessons, timed tests, and arcade mini-games. A premium Duolingo-style learning experience.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#58CC02",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "games", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Practice Spelling",
+      "short_name": "Spelling",
+      "description": "Start your daily spelling practice",
+      "url": "/?tab=practice",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Typing Arena",
+      "short_name": "Typing",
+      "description": "Jump into the typing test & mini-games",
+      "url": "/?tab=typing",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ]
+}

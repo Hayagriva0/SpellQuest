@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <!-- App Icon Background -->
+    <linearGradient id="fav_bg" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7AE52D"/>
+      <stop offset="50%" stop-color="#58CC02"/>
+      <stop offset="100%" stop-color="#3FA800"/>
+    </linearGradient>
+    <!-- Body Gradient -->
+    <linearGradient id="fav_body" x1="20" y1="10" x2="80" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8CE83C"/>
+      <stop offset="55%" stop-color="#58CC02"/>
+      <stop offset="100%" stop-color="#3FA800"/>
+    </linearGradient>
+    <!-- Belly Gradient -->
+    <linearGradient id="fav_belly" x1="30" y1="45" x2="70" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F2FFD6"/>
+      <stop offset="100%" stop-color="#B4F55C"/>
+    </linearGradient>
+    <!-- Wing Gradient -->
+    <linearGradient id="fav_wing" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#58CC02"/>
+      <stop offset="100%" stop-color="#388800"/>
+    </linearGradient>
+    <!-- Beak Gradient -->
+    <linearGradient id="fav_beak" x1="0" y1="45" x2="0" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FF9600"/>
+      <stop offset="100%" stop-color="#E85D04"/>
+    </linearGradient>
+    <!-- Gold Gradient -->
+    <linearGradient id="fav_gold" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF3B0"/>
+      <stop offset="40%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#E85D04"/>
+    </linearGradient>
+    <!-- Shadows -->
+    <filter id="fav_shadow" x="-10" y="-10" width="120" height="120" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded App Icon Container -->
+  <rect x="4" y="4" width="92" height="92" rx="26" fill="url(#fav_bg)" filter="url(#fav_shadow)"/>
+  <rect x="4" y="4" width="92" height="92" rx="26" stroke="#7AE52D" stroke-width="2.5" stroke-opacity="0.5"/>
+
+  <!-- Organic Body Shape (not a rect) -->
+  <path d="M50 14 C28 14, 18 28, 20 52 C21 72, 33 82, 50 82 C67 82, 79 72, 80 52 C82 28, 72 14, 50 14 Z" fill="#2D7D00" transform="translate(0, 3)"/>
+  <path d="M50 14 C28 14, 18 28, 20 52 C21 72, 33 82, 50 82 C67 82, 79 72, 80 52 C82 28, 72 14, 50 14 Z" fill="url(#fav_body)"/>
+
+  <!-- Curved Ear Tufts -->
+  <path d="M24 22 C20 14, 28 12, 35 22 Z" fill="#489E00" stroke="#388800" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M76 22 C80 14, 72 12, 65 22 Z" fill="#489E00" stroke="#388800" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Folded Wings -->
+  <path d="M20 42 C14 48, 15 66, 24 72 C26 66, 25 52, 20 42 Z" fill="url(#fav_wing)" stroke="#388800" stroke-width="1.5"/>
+  <path d="M80 42 C86 48, 85 66, 76 72 C74 66, 75 52, 80 42 Z" fill="url(#fav_wing)" stroke="#388800" stroke-width="1.5"/>
+
+  <!-- Plump Belly with Feather Scallops -->
+  <path d="M32 50 C32 72, 68 72, 68 50 C68 40, 32 40, 32 50 Z" fill="url(#fav_belly)"/>
+  <path d="M42 57 Q46 60 50 57 Q54 60 58 57" stroke="#7AD630" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M46 64 Q50 67 54 64" stroke="#7AD630" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Rosy Blush Cheeks -->
+  <ellipse cx="30" cy="53" rx="5" ry="3" fill="#FF6B8B" fill-opacity="0.4"/>
+  <ellipse cx="70" cy="53" rx="5" ry="3" fill="#FF6B8B" fill-opacity="0.4"/>
+
+  <!-- Left Eye -->
+  <circle cx="37" cy="42" r="14" fill="white" stroke="#2D7D00" stroke-width="3"/>
+  <circle cx="38" cy="42" r="7.5" fill="#16202E"/>
+  <circle cx="35" cy="39" r="3" fill="white"/>
+  <circle cx="41" cy="45" r="1.5" fill="white"/>
+  <path d="M26 30 Q37 25 47 32" stroke="#2D7D00" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Right Eye -->
+  <circle cx="63" cy="42" r="14" fill="white" stroke="#2D7D00" stroke-width="3"/>
+  <circle cx="62" cy="42" r="7.5" fill="#16202E"/>
+  <circle cx="65" cy="39" r="3" fill="white"/>
+  <circle cx="59" cy="45" r="1.5" fill="white"/>
+  <path d="M74 30 Q63 25 53 32" stroke="#2D7D00" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- 3D Beak -->
+  <path d="M43 52 L57 52 L50 64 Z" fill="url(#fav_beak)" stroke="#B84200" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M46 54 C48 54, 52 54, 54 54 L50 60 Z" fill="#FFD700" opacity="0.75"/>
+
+  <!-- Floating Golden Scholar Crest -->
+  <path d="M34 14 L50 5 L66 14 L50 23 Z" fill="url(#fav_gold)" stroke="#B84200" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="50" cy="14" r="2.5" fill="#00F5D4"/>
+
+  <!-- Sparkles -->
+  <path d="M18 14 L19 11 L20 14 L23 15 L20 16 L19 19 L18 16 L15 15 Z" fill="#FFD700"/>
+  <path d="M80 66 L81 64 L82 66 L84 67 L82 68 L81 70 L80 68 L78 67 Z" fill="#FFD700"/>
+</svg>
